@@ -1,0 +1,25 @@
+{
+  "name": "vivoo-common-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass sass/main.scss dist/main.css && uglifyjs js/main.js -c -m -o dist/main.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/vivoohub/vivoo-common-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/vivoohub/vivoo-common-assets/issues"
+  },
+  "homepage": "https://gitlab.com/vivoohub/vivoo-common-assets#readme",
+  "dependencies": {
+    "darkmode-js": "^1.5.7",
+    "node-sass": "^6.0.1",
+    "uglify-js": "^3.14.1"
+  }
+}
