@@ -1,0 +1,1 @@
+# vivoo-common-assets
