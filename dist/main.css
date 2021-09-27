@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: "OpenSauceSans";
-  src: url(../fonts/opensaucesans-regular.woff2) format("woff2"),
-    url(../fonts/opensaucesans-regular.woff) format("woff");
+  src: url(fonts/opensaucesans-regular.woff2) format("woff2"),
+    url(fonts/opensaucesans-regular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
